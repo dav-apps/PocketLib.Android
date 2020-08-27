@@ -1,17 +1,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="app.dav.pocketlib">
 
-    <application android:allowBackup="true"
-                 android:label="@string/app_name"
-                 android:icon="@mipmap/ic_launcher"
-                 android:roundIcon="@mipmap/ic_launcher_round"
-                 android:supportsRtl="true"
-                 android:theme="@style/Theme.LauncherActivity">
+    <application
+            android:allowBackup="true"
+            android:label="@string/app_name"
+            android:icon="@mipmap/ic_launcher"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/LauncherActivity">
+
         <meta-data
             android:name="asset_statements"
             android:resource="@string/asset_statements" />
 
-        <activity android:name="android.support.customtabs.trusted.LauncherActivity">
+        <activity android:name="com.google.androidbrowserhelper.trusted.LauncherActivity">
             <meta-data
                 android:name="android.support.customtabs.trusted.DEFAULT_URL"
                 android:value="https://pocketlib.dav-apps.tech" />
@@ -53,7 +55,7 @@
         </activity>
 
         <provider
-            android:name="android.support.v4.content.FileProvider"
+            android:name="androidx.core.content.FileProvider"
             android:authorities="app.dav.pocketlib.fileprovider"
             android:grantUriPermissions="true"
             android:exported="false">

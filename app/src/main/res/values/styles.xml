@@ -1,5 +1,5 @@
 <resources>
-    <style name="Theme.LauncherActivity" parent="Theme.AppCompat.NoActionBar">
+    <style name="LauncherActivity">
         <item name="android:windowAnimationStyle">@null</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowNoTitle">true</item>
