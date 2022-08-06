@@ -13,7 +13,7 @@
             android:name="asset_statements"
             android:resource="@string/asset_statements" />
 
-        <activity android:name="com.google.androidbrowserhelper.trusted.LauncherActivity">
+        <activity android:name="com.google.androidbrowserhelper.trusted.LauncherActivity" android:exported="true">
             <meta-data
                 android:name="android.support.customtabs.trusted.DEFAULT_URL"
                 android:value="https://pocketlib.dav-apps.tech" />
