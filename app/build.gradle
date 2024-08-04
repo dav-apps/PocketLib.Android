@@ -5,13 +5,14 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 33
+    namespace "app.dav.pocketlib"
+    compileSdkVersion 35
     defaultConfig {
         applicationId "app.dav.pocketlib"
         minSdkVersion 16
-        targetSdkVersion 33
-        versionCode 4
-        versionName "1.1.2"
+        targetSdkVersion 35
+        versionCode 5
+        versionName "1.1.3"
     }
     buildTypes {
         release {
@@ -27,5 +28,5 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.4.0'
+    implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.5.0'
 }
