@@ -21,10 +21,10 @@
                     android:value="https://pocketlib.dav-apps.tech" />
             <meta-data
                     android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
-                    android:resource="@color/colorPrimary" />
+                    android:resource="@color/navigationBarColor" />
             <meta-data
                     android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
-                    android:resource="@color/colorPrimary" />
+                    android:resource="@color/navigationBarColor" />
             <meta-data
                     android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
                     android:resource="@drawable/splash" />
